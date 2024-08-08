@@ -1,0 +1,52 @@
+#title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-bottom: solid;
+}
+
+header {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  margin-right: 20px;
+  border-right: solid;
+  padding-right: 10px;
+}
+
+main {
+  display: flex;
+}
+
+ul {
+  list-style-type: none; /* Rimuove i punti elenco */
+  padding: 0; /* Rimuove il padding predefinito */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+
+li {
+  list-style-type: none; /* Rimuove i punti elenco */
+  margin: 0 0 10px 0; /* Aggiunge un po' di spazio tra gli elementi della lista */
+}
+
+.nav-link {
+  text-decoration: none; /* Rimuove la sottolineatura dai link */
+  color: black; /* Imposta il colore dei link */
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+}
+
+code {
+  background-color: lightgray;
+}
+
+section {
+  padding-bottom: 10px;
+}
